@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: sonarqube-config
+  namespace: sonarqube
+data:
+  sonar.properties: |
+    sonar.jdbc.url=jdbc:postgresql://postgres-service:5432/sonarqube
+    sonar.jdbc.username=sonar
+    sonar.jdbc.password=${SONAR_JDBC_PASSWORD}
