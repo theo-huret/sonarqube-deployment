@@ -46,7 +46,7 @@ Before you begin, ensure you have the following tools installed on your machine:
 ## Resources
 
 - [Kubernetes Documentation](https://kubernetes.io/docs)
-- [SonarQube Official Documentation](https://minikube.sigs.k8s.io/docs)
+- [SonarQube Official Documentation](https://docs.sonarsource.com/sonarqube/latest/)
 
 ## Learn More
 
